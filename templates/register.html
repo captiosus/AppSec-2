@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Register</title>
+  </head>
+  <body>
+    <h1>Register</h1>
+    <p id="success">{{ success }}</p>
+    <form action='register' method="post">
+      <label for="uname">Username:</label>
+      <br />
+      <input name="uname" id="uname" type="text">
+      <br />
+      <label for="pword">Password:</label>
+      <br />
+      <input name="pword" id="pword" type="password">
+      <br />
+      <label for="2fa">2FA:</label>
+      <br />
+      <input name="2fa" id="2fa" type="text">
+      <br />
+      <br />
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
